@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_05;
+package Lesson_05.page_119;
 
 /**
  *
  * @author menelaos
  */
-public class page119 {
+class MultiFor {
     public static void main (String[] args) {
         for (int x = 0; x < 4; x++) {
             for (int y = 4; y > 2; y--) {

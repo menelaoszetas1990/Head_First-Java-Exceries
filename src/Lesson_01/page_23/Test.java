@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_01;
+package Lesson_01.page_23;
 
 /**
  *
  * @author menelaos
  */
-public class page23 {
+public class Test {
     public static void main (String[] args) {
         int x = 0;
         int y = 0;

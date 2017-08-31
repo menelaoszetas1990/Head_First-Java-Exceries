@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_05;
+package Lesson_05.page_121;
 
 /**
  *
  * @author menelaos
  */
-public class page121 {
+class MixFor5 {
     public static void main (String[] args) {
         int x = 0;
         int y = 30;

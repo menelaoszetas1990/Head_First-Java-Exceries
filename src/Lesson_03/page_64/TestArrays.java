@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_03;
+package Lesson_03.page_64;
 
 /**
  *
  * @author menelaos
  */
-public class page64 {
+class TestArrays {
     public static void main (String[] args) {
         int[] index = new int[4];
         index[0] = 1;

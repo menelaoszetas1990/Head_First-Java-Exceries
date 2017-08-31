@@ -3,24 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_04;
+package Lesson_04.page_90;
 
 /**
  *
  * @author menelaos
  */
-public class page90 {
+public class Mix4 {
     int counter =0;
     public static void main (String[] args) {
         int count = 0;
-        page90[] m4a = new page90[20];
+        Mix4[] m4a = new Mix4[20];
         int x = 0;
 //        x < 9
 //        x < 20
 //        x < 7
 //        x < 19
         while (x < 19) {
-            m4a[x] = new page90();
+            m4a[x] = new Mix4();
             m4a[x].counter = m4a[x].counter + 1;
             count = count + 1;
             count = count + m4a[x].maybeNew(x);
@@ -35,7 +35,7 @@ public class page90 {
 //        index < 7
 //        index < 1
         if (index < 1) {
-            page90 m4 = new page90();
+            Mix4 m4 = new Mix4();
             m4.counter = m4.counter + 1;
             return 1;
         }

@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_01;
+package Lesson_01.page_24;
 
 /**
  *
  * @author menelaos
  */
-public class page24 {
+public class PoolPuzzleOne {
     public static void main (String[] args) {
         int x = 0;
         while (x < 1) {

@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_03;
+package Lesson_03.page_66;
 
 /**
  *
  * @author menelaos
  */
-public class page66 {
+class HeapQuiz {
     int id = 0;
     public static void main (String[] args) {
         int x = 0;
-        page66[] hq = new page66[5];
+        HeapQuiz[] hq = new HeapQuiz[5];
         while (x < 3) {
-            hq[x] = new page66();
+            hq[x] = new HeapQuiz();
             hq[x].id = x;
             x = x + 1;
         }

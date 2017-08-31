@@ -1,15 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Lesson_04;
+package Lesson_04.page_91;
 
 /**
  *
  * @author menelaos
  */
-public class page91 {
+public class Puzzle4 {
     public static void main (String[] args) {
         Puzzle4b[] obs = new Puzzle4b[6];
         int y = 1;
@@ -27,16 +22,5 @@ public class page91 {
             result = result +  obs[x].doStuff(x);
         }
         System.out.println("result " + result);
-    }
-}
-
-class Puzzle4b {
-    int ivar;
-    public int doStuff(int factor) {
-        if (ivar > 100) {
-            return ivar * factor;
-        } else {
-            return ivar * (5 - factor);
-        }
     }
 }

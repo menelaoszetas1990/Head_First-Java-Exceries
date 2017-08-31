@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_05;
+package Lesson_05.page_118;
 
 /**
  *
  * @author menelaos
  */
-public class page118 {
+class Output {
     public static void main (String[] args) {
-        page118 o = new page118();
+        Output o = new Output();
         o.go();
     }
     

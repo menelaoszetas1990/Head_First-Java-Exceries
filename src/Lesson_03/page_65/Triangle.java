@@ -3,21 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_03;
+package Lesson_03.page_65;
 
 /**
  *
  * @author menelaos
  */
-public class page65 {
+class Triangle {
     double area;
     int height;
     int length;
     public static void main (String[] args) {
         int x = 0;
-        page65[] ta = new page65[4];
+        Triangle[] ta = new Triangle[4];
         while (x < 4) {
-            ta[x] = new page65();
+            ta[x] = new Triangle();
             ta[x].height = (x + 1) * 2;
             ta[x].length = x + 4;
             ta[x].setArea();
@@ -27,7 +27,7 @@ public class page65 {
         }
         int y = x;
         x = 27;
-        page65 t5 = ta[2];
+        Triangle t5 = ta[2];
         ta[2].area = 343;
         System.out.print("y = " + y);
         System.out.println(", t5 area = " + t5.area);
