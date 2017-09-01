@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_10;
+package Lesson_10.page_310;
 
 /**
  *
  * @author menelaos
  */
-public class page310 extends StaticSuper {
+public class StaticTests extends StaticSuper {
     static int rand;
     
     static {
@@ -18,23 +18,13 @@ public class page310 extends StaticSuper {
     }
     
     // constructor
-    page310() {
+    StaticTests() {
         System.out.println("constructor");
     }
     
     public static void main (String[] args) {
         System.out.println("in main");
-        page310 st = new page310();     // 8a treksei prwta o constructor tou parent
+        StaticTests st = new StaticTests();     // 8a treksei prwta o constructor tou parent
     }
 }
 
-class StaticSuper {
-    static {
-        System.out.println("super static block");
-    }
-    
-    // constructor
-    StaticSuper () {
-        System.out.println("super constructor");
-    }
-}

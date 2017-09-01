@@ -3,13 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_10;
+package Lesson_10.page_285;
+
+import Lesson_10.page_285.Foo4;
+import Lesson_10.page_285.Foo5;
+import Lesson_10.page_285.Foo6;
 
 /**
  *
  * @author menelaos
  */
-public class page285 {
+public class FooTest {
     public static void main (String[] args) {
         System.out.println("\na");
         System.out.println("static int x");
@@ -39,44 +43,4 @@ public class page285 {
     }
 }
 
-class Foo {
-    static int x;
-    public void go() {
-        System.out.println(x);
-    }
-}
 
-//class Foo2 {
-//    int x;
-//    public static void go() {
-//        System.out.println(x);
-//    }
-//}
-
-//class Foo3 {
-//    final int x;
-//    public void go() {
-//        System.out.println(x);
-//    }
-//}
-
-class Foo4 {
-    static final int x = 12;
-    public void go() {
-        System.out.println(x);
-    }
-}
-
-class Foo5 {
-    static final int x = 12;
-    public void go(final int x) {
-        System.out.println(x);
-    }
-}
-
-class Foo6 {
-    int x = 12;
-    public static void go(final int x) {
-        System.out.println(x);
-    }
-}

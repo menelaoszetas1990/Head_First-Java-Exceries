@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_10;
+package Lesson_10.page_291;
 
 /**
  *
  * @author menelaos
  */
-public class page291 {
+public class TestBox {
     Integer i;
     int j;
     
     public static void main (String[] args) {
-        page291 t = new page291();
+        TestBox t = new TestBox();
         t.go();
     }
     

@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_11;
+package Lesson_11.page_349;
 
-/**
- *
- * @author menelaos
- */
-class MyEx extends Exception {}
+import Lesson_11.page_349.MyEx;
 
-public interface page349 {
+public class ExTestDrive {
     public static void main (String[] args) {
-        String test = "no";
+        String test = "yes";
         try {
             System.out.print("t");
             doRisky(test);

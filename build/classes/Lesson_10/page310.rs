@@ -1,2 +1,2 @@
-Lesson_10.StaticSuper
-Lesson_10.page310
+Lesson_10.page_310.StaticSuper
+Lesson_10.page_310.StaticTests

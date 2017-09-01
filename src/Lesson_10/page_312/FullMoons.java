@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson_10;
+package Lesson_10.page_312;
 
 import static java.lang.System.out;
 import java.util.Calendar;
@@ -12,7 +12,7 @@ import java.util.Calendar;
  *
  * @author menelaos
  */
-public class page312 {
+class FullMoons {
     static int DAY_IM = 1000 * 60 * 60 * 24;
     
     public static void main (String[] args) {
